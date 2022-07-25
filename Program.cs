@@ -1,17 +1,18 @@
-﻿//Console.WriteLine("Введите массив:");
-string [] input=new String[3] {"Гоgh", "бывалый", "гудb"};
+﻿
+string [] input=new String[4] {"Hello", "2", "world",";-)"};
 
-// 2 варианта адания массива
-//string [] result=new String[3]; 
-string[] result = new string[0]; 
+string [] result=new String[4]; 
+
 
 void Print (string[] arr)
 {
+    Console.Write("[");
     for (int i = 0; i < arr.Length; i++)
     {
-        Console.Write(arr[i] + ";");
+        Console.Write(arr[i] + " ");
 
     }
+    Console.Write("]");
     Console.WriteLine();
 }
 
@@ -24,8 +25,7 @@ Print (input);
     {
         result[j]=input[j];
     }
-
 }
 
 Print(result);
-// Console.Write(input);
+
