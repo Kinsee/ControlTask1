@@ -1,7 +1,7 @@
 ﻿
 string [] input=new String[4] {"Hello", "2", "world",";-)"};
 
-string [] result=new String[4]; 
+string [] result=new String[input.Length]; 
 
 
 void Print (string[] arr)
